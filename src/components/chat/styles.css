@@ -1,0 +1,9 @@
+.chat {
+  background-color: #272822;
+  color: #fff;
+  display: block;
+  height: calc(100% - 20px);
+  overflow: auto;
+  padding: 10px;
+  width: calc(100% - 20px);
+}

@@ -1,0 +1,15 @@
+.brand {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.brand a {
+  background: url(../../assets/svg/brand.svg) no-repeat;
+  background-size: 184px 62px;
+  display: block;
+  height: 62px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 184px;
+}

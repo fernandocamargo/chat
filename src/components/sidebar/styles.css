@@ -1,0 +1,37 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .brand {
+  height: 70px;
+}
+
+.sidebar .container {
+  display: block;
+  height: calc(100% - (70px + 3rem));
+  position: relative;
+}
+
+.sidebar .container > * {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.sidebar.conversations .container *:nth-child(1) {
+  overflow: auto;
+  width: 100%;
+}
+
+.sidebar.contacts .container *:nth-child(2) {
+  overflow: auto;
+  width: 100%;
+}
+
+.sidebar .menu {
+  height: 3rem;
+}
